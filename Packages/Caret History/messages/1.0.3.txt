@@ -1,0 +1,4 @@
+Goto Symbol 1.0.3 Changelog :
+
+Features
+    * Moving to adjacent line replaces previous position in history

@@ -1,0 +1,63 @@
+[
+	{ 
+		"keys": ["ctrl+y"], 
+		"command": "show_overlay",
+		"args": {"overlay": "command_palette", "text": "Snippet: "}
+	},
+	{
+		"keys": ["ctrl+h"],
+		"command": "prev_view"
+	},
+	{
+		"keys": ["ctrl+l"],
+		"command": "next_view"
+	},
+	{
+		"keys": [" "],
+		"command": "move",
+		"args": { "by": "pages", "forward": true },
+		"context":
+		[
+			{ "key": "setting.command_mode", "operand": true }
+		]
+	},
+	{
+		"keys": ["-"],
+		"command": "move",
+		"args": { "by": "pages", "forward": false },
+		"context":
+		[
+			{ "key": "setting.command_mode", "operand": true }
+		]
+	},
+	{ "keys": ["alt+1"], "command": "focus_group", "args": { "group": 0 } },
+	{ "keys": ["alt+2"], "command": "focus_group", "args": { "group": 1 } },
+	{ "keys": ["alt+3"], "command": "focus_group", "args": { "group": 2 } },
+	{ "keys": ["alt+4"], "command": "focus_group", "args": { "group": 3 } },
+	{ "keys": ["alt+shift+1"], "command": "move_to_group", "args": { "group": 0 } },
+	{ "keys": ["alt+shift+2"], "command": "move_to_group", "args": { "group": 1 } },
+	{ "keys": ["alt+shift+3"], "command": "move_to_group", "args": { "group": 2 } },
+	{ "keys": ["alt+shift+4"], "command": "move_to_group", "args": { "group": 3 } },
+	{ "keys": ["alt+0"], "command": "focus_side_bar" },
+  { "keys": ["alt+shift+b"], "command": "show_panel", "args": {"panel": "output.exec", "toggle": true} },
+  
+  // for https://github.com/wulftone/sublime-text-2-quick-file-move
+  { "keys": ["ctrl+shift+r"], "command": "quick_file_move" },
+
+  { "keys": ["`", "r", "m"], "command": "list_rails_models", "context": [{"key": "setting.command_mode"}] },
+	{ "keys": ["`", "r", "c"], "command": "list_rails_controllers", "context": [{"key": "setting.command_mode"}] },
+	{ "keys": ["`", "r", "v"], "command": "list_rails_views", "context": [{"key": "setting.command_mode"}] },
+	{ "keys": ["`", "r", "h"], "command": "list_rails_helpers", "context": [{"key": "setting.command_mode"}] },
+	{ "keys": ["`", "r", "x"], "command": "list_rails_fixtures", "context": [{"key": "setting.command_mode"}] },
+	{ "keys": ["`", "r", "t"], "command": "list_rails_tests", "context": [{"key": "setting.command_mode"}] },
+	{ "keys": ["`", "r", "i"], "command": "list_rails_javascripts", "context": [{"key": "setting.command_mode"}] },
+	{ "keys": ["`", "r", "y"], "command": "list_rails_stylesheets", "context": [{"key": "setting.command_mode"}] },
+
+  { "keys": ["`", "t", "r"], "command": "run_single_ruby_test", "context": [{"key": "setting.command_mode"}] }, // single test
+  { "keys": ["`", "t", "a"], "command": "run_all_ruby_test", "context": [{"key": "setting.command_mode"}] }, // test file
+  { "keys": ["`", "t", "t"], "command": "run_last_ruby_test", "context": [{"key": "setting.command_mode"}] }, // test file
+
+  //{ "keys": ["`", "0"], "command": "alternate_spec", "context": [{"key": "settings.command_mode"}]}
+  { "keys": ["super+."], "command": "alternate_spec" }
+]
+

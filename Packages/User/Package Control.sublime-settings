@@ -1,0 +1,28 @@
+{
+	"auto_upgrade_last_run": null,
+	"installed_packages":
+	[
+		"All Autocomplete",
+		"Caret History",
+		"CoffeeCompile",
+		"CoffeeScript",
+		"CoffeeScript Function Finder",
+		"ColorPicker",
+		"eco",
+		"Git",
+		"HTML5",
+		"Jade",
+		"Jasmine",
+		"jQuery",
+		"Markdown Preview",
+		"Package Control",
+		"QuickFileMove",
+		"Rails Related Files",
+		"RubyTest",
+		"Sass",
+		"SideBarEnhancements",
+		"Simple Rails Navigator",
+		"Terminal",
+		"VintageEx"
+	]
+}

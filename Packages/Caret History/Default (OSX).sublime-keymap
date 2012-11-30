@@ -1,0 +1,4 @@
+[
+    { "keys": ["super+alt+left"], "command": "caret_history", "args": { "action": "previous" } },
+    { "keys": ["super+alt+right"], "command": "caret_history", "args": { "action": "next" } }
+]

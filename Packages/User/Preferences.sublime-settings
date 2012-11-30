@@ -1,0 +1,20 @@
+{
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		".sass-cache",
+		"tmp"
+	],
+	"font_face": "Monaco",
+	"font_size": 15,
+	"hot_exit": false,
+	"ignored_packages":
+	[
+	],
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true,
+	"vintage_start_in_command_mode": true
+}

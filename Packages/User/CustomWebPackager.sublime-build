@@ -1,0 +1,4 @@
+{
+  "cmd": ["scripts/build.sh"],
+  "working_dir": "${project_path:${folder}}"
+}

@@ -1,0 +1,7 @@
+{
+  "run_cucumber_command": "cuc {relative_path}",
+  "run_single_cucumber_command": "cuc {relative_path} -l{line_number}",
+
+  "run_rspec_command": "sp {relative_path}",
+  "run_single_rspec_command": "sp {relative_path} -l{line_number}"
+}
