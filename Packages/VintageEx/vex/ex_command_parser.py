@@ -67,6 +67,17 @@ EX_COMMANDS = {
                                 ),
                                 error_on=()
                                 ),
+    ('Write', 'W'): ex_cmd_data(
+                                command='ex_write_file',
+                                invocations=(
+                                    re.compile(r'^\s*$'),
+                                    re.compile(r'(?P<plusplus_args> *\+\+[a-zA-Z0-9_]+)* *(?P<operator>>>) *(?P<target_redirect>.+)?'),
+                                    # fixme: raises an error when it shouldn't
+                                    re.compile(r'(?P<plusplus_args> *\+\+[a-zA-Z0-9_]+)* *!(?P<subcmd>.+)'),
+                                    re.compile(r'(?P<plusplus_args> *\+\+[a-zA-Z0-9_]+)* *(?P<file_name>.+)?'),
+                                ),
+                                error_on=()
+                                ),
     ('wall', 'wa'): ex_cmd_data(
                                 command='ex_write_all',
                                 invocations=(),
