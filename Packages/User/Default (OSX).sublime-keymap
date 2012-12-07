@@ -58,6 +58,13 @@
   { "keys": ["`", "t", "t"], "command": "run_last_ruby_test", "context": [{"key": "setting.command_mode"}] }, // test file
 
   //{ "keys": ["`", "0"], "command": "alternate_spec", "context": [{"key": "settings.command_mode"}]}
-  { "keys": ["super+."], "command": "alternate_spec" }
+  { "keys": ["super+."], "command": "alternate_spec" },
+
+  // git
+  { "keys": ["\\", "g", "s"], "command": "git_status", "context": [{"key": "setting.command_mode"}] },
+  { "keys": ["\\", "g", "d"], "command": "git_diff", "context": [{"key": "setting.command_mode"}] },
+  { "keys": ["\\", "g", "c"], "command": "git_commit", "context": [{"key": "setting.command_mode"}] },
+  { "keys": ["\\", "g", "a"], "command": "git_add_choice", "context": [{"key": "setting.command_mode"}] },
+  { "keys": ["\\", "g", "l"], "command": "git_log", "context": [{"key": "setting.command_mode"}] }
 ]
 

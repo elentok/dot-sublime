@@ -1,4 +1,5 @@
 {
+	"detect_indentation": false,
 	"folder_exclude_patterns":
 	[
 		".svn",
